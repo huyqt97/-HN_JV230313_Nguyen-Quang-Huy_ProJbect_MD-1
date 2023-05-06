@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    margin-top: 40px;
+}
+/* log in */
+.login{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+}
+.login .img{
+    width: 52%;
+    background-image: url("./image/home-phones.png");
+    /* background-size: 100%; */
+    background-size: cover;
+}
+.login .form{
+    width: 47%;
+    text-align: center;
+    padding: 20px;
+}
+.form-top{
+    border: 1px solid rgb(164, 163, 163);
+    padding: 30px;
+}
+.form-top input{
+    border: 1px solid rgb(164, 163, 163);
+    padding: 10px;
+    min-width: 100%;
+    margin-top: 5px;
+    outline: none;
+    border-radius: 5px;
+}
+.form-top button{
+    color: #fff;
+    background-color: #4cb5f9;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+    margin:20px 0px;
+}
+
+.form-top img{
+    width: 100%;
+}
+
+
+
+.form-bottom img{
+    width: 45%;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.form-top .or{
+    margin: 20px 0px;
+    position: relative;
+}
+.form-top .or .boder{
+    border: 1px solid rgb(163, 162, 162);
+}
+.form-top .or span{
+    padding: 0px 15px;
+    background-color: #fff;
+    position: absolute;
+    top: -10px;
+    left: 40%;
+}
+.fa-square-facebook{
+    font-size: 20px;
+    color: #385185;
+    margin-bottom: 20px;
+}
+.form-top a{
+    text-decoration: none;
+}
+.form-center{
+    margin-top: 15px;
+    padding: 20px 0px;
+    border: 1px solid rgb(163, 162, 162);
+}
+.form-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3;
+}
+.footer {
+    padding: 100px 50px 50px;
+    color: rgb(132, 130, 130);
+    text-align: center;
+}
+.footer .support span{
+    margin-top: 100px;
+    font-size: 13px;
+    padding: 0px 10px;
+}
+.footer .infor{
+    margin: 30px 0px 50px 0px ;
+}
+.footer .infor select{
+    border: transparent;
+    outline: none;
+}

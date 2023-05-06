@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+}
+.container{
+    padding: 20px 0px 50px;
+}
+/* header */
+.header{
+    margin: auto;
+    width: 350px;
+}
+.header .top{
+    text-align: center;
+    padding: 30px 30px;
+    border: 1px solid rgb(189, 187, 187);
+}
+.header .top strong{
+    color: rgb(145, 144, 144);
+}
+.header .top button{
+    font-weight: 600;
+    color: #fff;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #0095f6;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.header .top button:active{
+    background-color: #41acf4;
+}
+.header .top input{
+    border: 1px solid rgb(159, 157, 157);
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+.header .top .boder{
+    border: 1px solid rgb(183, 179, 179);
+}
+.header .top .or {
+    margin: 20px 0px;
+    position: relative;
+}
+.header .top .or span {
+    padding: 0px 15px;
+    background-color: #fff;
+    position: absolute;
+    top: -10px;
+    left: 40%;
+}
+.header .top span{
+    cursor: pointer;
+    color: #0070b8;
+}
+.header .top p{
+    color: rgb(145, 144, 144);
+    font-size: 14px;
+    margin: 10px;
+}
+.header .center{
+    margin-top: 15px;
+    border: 1px solid rgb(183, 179, 179);
+    padding: 20px 0px;
+    text-align: center;
+}
+.header .center span{
+    cursor: pointer;
+    color: #0095f6;
+}
+.header .bottom{
+    text-align: center;
+}
+.header .bottom p{
+    padding: 15px 0px;
+}
+.header .bottom .logo img{
+    margin: 10px 0px;
+}
+.header #loginClick:hover{
+    text-decoration-line:underline
+}
+/* foooter */
+.footer{
+    text-align: center;
+    color: rgb(145, 144, 144);
+    font-size: 13px;
+}
+.footer .support{
+    margin-top: 60px;
+}
+.footer .infor select{
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    color: rgb(145, 144, 144);
+}

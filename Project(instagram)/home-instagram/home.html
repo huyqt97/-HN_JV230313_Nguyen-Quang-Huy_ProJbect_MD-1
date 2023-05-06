@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./image/Instagram_icon.png.webp"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./home.css" />
+    <title>Instagram</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- modal admin -->
+      <div id="modal-admin" class="modal-admin">
+        <h1>login Admin</h1>
+        <form id="form-admin" action="">
+          <table>
+            <tr>
+              <th><label for="">Account:</label></th>
+              <th><input id="account" type="text"></th>
+            </tr>
+            <tr>
+              <th><label for="">Password:</label></th>
+              <th><input id="password" type="password"></th>
+            </tr>
+          </table>
+          <button>Login</button>
+        </form>
+        <p id="home-page">home page</p>
+      </div>
+      <div id="container-home" class="row container-home">
+        <!-- nav -->
+        <div class="col-2">
+          <div class="sidebar">
+            <img id="home-logo" src="./image/logo.png" alt="" />
+            <div id="home" class="home">
+              <i class="fa-solid fa-house"></i>
+              <span>Home</span>
+            </div>
+            <div class="search">
+              <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+              <span>Search</span>
+            </div>
+            <div class="explore">
+              <i class="far fa-compass"></i>
+              <span>explore</span>
+            </div>
+            <div class="reels">
+              <i class="fas fa-yin-yang"></i>
+              <span>Reels</span>
+            </div>
+            <div class="messager">
+              <i class="fab fa-telegram-plane"></i>
+              <span>Messager</span>
+            </div>
+            <div class="notifications">
+              <i class="far fa-heart"></i>
+              <span>Notifications</span>
+            </div>
+            <div id="create" class="create">
+              <i class="far fa-plus-square"></i>
+              <span>Create</span>
+            </div>
+            <div id="profile" class="profile">
+              <div class="avatarProfile avatar-img1">
+                <!-- <img src="" alt=""> -->
+              </div>
+              <span>Profile</span>
+            </div>
+            <div id="admin" class="admin-btn">
+              <img class="img-admin" src="./image/1707088.png" alt="" />
+              <span>Admin</span>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <!-- content -->
+        <div id="main1" class="col-6 main1">
+          <div class="main">
+            <div id="containerContent" class="box-child">
+              <!-- <div id="content" class="main-child">
+                <div class="child-head">
+                  <div class="left">
+                    <img src="./image/" alt="" />
+                    <span>Name</span>
+                  </div>
+                  <div class="delete-post">
+                    <i class="fas fa-ellipsis-h"></i>
+                    <span class="btn-post">Delete</span>
+                    <div class="btn-curren">
+                      <span class="btn-delete">Delete</span><br>
+                      <span class="btn-edit">Edit</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="img-content">
+                  <img src="./image/1.jpg" alt="" class="" />
+                </div>
+                <div class="child-nav">
+                  <div class="icon-left">
+                    <i class="far fa-heart"></i>
+                    <i  type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg" class="far fa-comment-dots"></i>
+                    <i class="fab fa-telegram-plane"></i>
+                  </div>
+                  <i class="far fa-bookmark"></i>
+                </div>
+                <p class="likes"><b>(51,687) likes</b></p>
+                <p><b>(địa điểm)</b> Nuestro míster 🥰</p>
+                <button
+                  type="button"
+                  class="btn1"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  View all<span>(77)</span> comments
+                </button>
+                <div class="comment">
+                  <input type="text" placeholder="Add a comment…" />
+                  <i class="far fa-smile"></i>
+                </div>
+              </div> -->
+            </div>
+            <div class="footer">
+              <p>
+                <span>Meta</span>
+                <span>About</span>
+                <span>Blog</span>
+                <span>Jobs</span>
+                <span>Help</span>
+                <span>API</span>
+                <span>Privacy</span>
+                <span>Terms</span>
+                <span>Top Accounts</span>
+                <span>Locations</span>
+                <span>Instagram Lite</span>
+              </p>
+              <p>
+                <span>Contact Uploading & Non-Users</span>
+                <span>Meta Verified</span>
+              </p>
+              <div class="infor">
+                <select name="" id="">
+                  <option value="">English</option>
+                  <option value="">Tiếng Việt</option>
+                </select>
+                <span>© 2023 Instagram from Meta</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+
+        <!-- admin -->
+        <div id="admin-posts" class="admin col-10">
+          <div class="header">
+            <h1>Admin</h1>
+            <p>quản lý bài viết</p>
+          </div>
+          <table id="table-admin">
+            <tr class="row">
+              <th class="col-5">image</th>
+              <th class="col-3">content</th>
+              <th class="col-2">poster</th>
+              <th class="col-2">chấc năng</th>
+            </tr>
+            <!-- <tr>
+              <td>img</td>
+              <td>content</td>
+              <td>người đăng</td>
+              <td>
+                <button id="btnAccept">accept</button>
+                <button id="btnDelete">Delete</button>
+              </td>
+            </tr> -->
+          </table>
+        </div>
+        <!--  -->
+        
+        <!-- aside -->
+        <div id="aside1" class="col-4 aside1">
+          <div class="aside">
+            <div class="user">
+              <div class="user-thongtin">
+                <div id="profile" class="user-left">
+                  <div class="aside-avatar avatar-img1">
+                    <!-- <img src="./image/1.jpg" alt="" /> -->
+                  </div>
+                  <div id="fullname" class="user-left-list fullname"></div>
+                </div>
+                <button id="logout">log out</button>
+              </div>
+            </div>
+            <div class="search">
+              <span class="text-color">Suggestions for you</span>
+              <b>See All</b>
+            </div>
+            <div class="menu-friend">
+              <!-- <div class="list-frend">
+                <div class="user-left">
+                  <img src="./image/1.jpg" alt="" />
+                  <div class="user-left-list">
+                    <p>Nguyễn Quang A</p>
+                    <p class="text-color">a VN</p>
+                  </div>
+                </div>
+                <button>Follow</button>
+              </div> -->
+            </div>
+            <div class="footer-aside">
+              <ul>
+                <li>About</li>
+                <li>Help</li>
+                <li>Press</li>
+                <li>API</li>
+                <li>jobs</li>
+                <li>Privacy</li>
+                <li>terms</li>
+                <li>Locations</li>
+                <li>Language</li>
+                <li>Meta Verified</li>
+              </ul>
+              <p>© 2023 INSTAGRAM FROM META</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- personal-page -->
+        <div id="personal-page" class="col-10 personal-page">
+          <div class="personal-page-header">
+            <div class="avatar">
+              <div id="avatar-img" class="avatar-img avatar-img1">gfd
+                <!-- <img src="https://znews-photo.zingcdn.me/w660/Uploaded/mdf_eioxrd/2021_07_06/2.jpg " alt=""> -->
+              </div>
+              <div class="up-avatar">
+                <input
+                  id="input-avatar"
+                  type="text"
+                  placeholder="link ảnh..."
+                />
+                <button id="btn-up-avatar">up</button>
+              </div>
+            </div>
+            <div class="header-right">
+              <div class="header-right-1">
+                <b id="personal-page-fullname"></b>
+                <button id="btn-profile" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Edit profile</button>
+                <i class="fa-solid fa-gear"></i>
+                <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                  <!-- modal -->
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header modal-profile">
+                        <h1>Edit personal information</h1>
+                          <table id="table-profile" style="text-align: center;">
+                            <tr>
+                              <th>Email:</th>
+                              <td><span id="profile-email" ></span> <input id="profile-email-input" type="text" placeholder="Nhập Email mới..."></td>
+                              <td class="flex"><button id="edit-email">Edit</button><button class="confirm" id="confirm-email">confirm</button></td>
+                            </tr>
+                            <tr>
+                              <th>Full Name:</th>
+                              <td><span id="profile-fullname"></span><input id="profile-fullname-input" type="text" placeholder=" Nhập tên...!"></td>
+                              <td class="flex"><button id="edit-fullname">Edit</button><button class="confirm" id="confirm-fullname">confirm</button></td>
+                            </tr>
+                            <tr>
+                              <th>Password:</th>
+                              <td><span id="profile-password"></span><input id="profile-password-input" type="text"></td>
+                              <td class="flex"><button id="edit-password">Edit</button><button class="confirm" id="confirm-password">confirm</button></td>
+                            </tr>
+                          </table>
+                          <button id="save-profile">SAVE</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!--  -->
+                </div>
+              </div>
+              <div id="header-right-2" class="header-right-2">
+                <!-- <span><b>0</b>posts</span>
+                <span><b>22</b>followers</span>
+                <span><b>24</b>following</span> -->
+              </div>
+            </div>
+          </div>
+          <div class="personal-page-nav">
+            <span id="btn-posts">POSTS</span>
+            <span>SAVED</span>
+            <span>TAGGED</span>
+          </div>
+          <div id="box-posts">
+            <!-- <div class="post">
+              <img src="https://images.pexels.com/photos/14819864/pexels-photo-14819864.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+              <div class="icon-post">
+                <span><i class="fas fa-heart"></i> like</span>
+                <span><i class="fas fa-comment"></i> cmt</span>
+              </div>
+            </div> -->
+          </div>
+          <div class="personal-page-footer">
+            <ul>
+              <li>About</li>
+              <li>Help</li>
+              <li>Press</li>
+              <li>API</li>
+              <li>jobs</li>
+              <li>Privacy</li>
+              <li>terms</li>
+              <li>Locations</li>
+              <li>Language</li>
+              <li>Meta Verified</li>
+            </ul>
+            <p>© 2023 INSTAGRAM FROM META</p>
+          </div>
+        </div>
+        <!--  -->
+
+        <!-- create -->
+        <div id="create-posts" class="col-10 create">
+          <div class="create-img">
+            <h1>POSTS</h1>
+            <form id="my-form" action="">
+              <input id="imageContent" type="text" placeholder="image">
+              <div id="check-img" class="check-img">
+                <!-- <img src="" alt="" /> -->
+              </div>
+              <div id="imgCreate" class="create-id avatar-img1">
+                <!-- <img
+                  src="./image/Instagram_icon.png.webp"
+                  alt=""
+                  width="40px"
+                  height="40px"
+                /> -->
+              </div>
+              <b id="fname" class="create-personal-page fullname"></b>
+              <textarea
+              id="textarea"
+              cols="78"
+              rows="5"
+              placeholder="content..."
+              ></textarea
+              >
+              <div id="alert" class="alert">
+              </div>
+              <button id="post-img">Post</button>
+            </form>
+          </div>
+        </div>
+        <!--  -->
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"></h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+            <div class="modal-body row">
+              <div class="content-picture col-7">
+                <div class="img">
+                  <img style="width: 100%;" id="imgPost" src="" alt="">
+                </div>
+              </div>
+              <div class="content-comment col-5">
+                <div class="demtail-comment">
+                  <div id="id-name" style="display: flex; gap: 10px; border-bottom: 1px solid rgb(152, 152, 152); padding: 5px 0px;">
+                    <img id="avatarPoster" src="" alt="" style="width: 30px; height: 30px; border-radius: 50%;">
+                    <div id="poster" style="font-weight: 600;"></div>
+                  </div>
+                  <div id="containerListComment" class="list-comment">
+                    <!-- <div id="" class="comment box-comment">
+                      <div class="id-comment">
+                        <div class="avatar-comment avatar-img1">
+                          <img src="" alt="">
+                        </div>
+                        <b>name</b>
+                        <span>comment</span>
+                      </div>
+                      <i class="fa-regular fa-heart"></i>
+                    </div> -->
+                  </div>
+                  <div class="child-nav">
+                    <div class="icon-left">
+                      <i class="far fa-heart"></i>
+                      <i class="far fa-comment-dots"></i>
+                      <i class="fab fa-telegram-plane"></i>
+                    </div>
+                    <i class="far fa-bookmark"></i>
+                  </div>
+                  <div class="footer-comment">
+                    <!-- <p class="likes"><b>(51,687) likes</b></p> -->
+                    <div id="eventInput" class="input">
+                      <input
+                      id="inputComment"
+                      type="text"
+                      placeholder="Add a comment…"
+                      />
+                      <button id="btnPost" class="btnPost" style="font-weight: 700;">Post</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    
+    <!-- modal curen -->
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-curen" style="width: 55%;">
+        <div id="curren" class="modal-content modal-curen">
+          <h2>Edit contents</h2>
+          <div id="imgCurren" class="img-curen">
+            <img src="" alt="" height="100%">
+          </div>
+          <input id="inputCurren" type="text" placeholder="Image">
+          <textarea id="textareaCurren" name="" id="" cols="" rows="5" placeholder="new contents"></textarea>
+          <p><button id="btn-save">SAVE</button></p>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./home.js"></script>
+    <script src="./profile.js"></script>
+    <script src="./sidebav.js"></script>
+    <script src="./create.js"></script>
+    <script src="./admin.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>
+
+
